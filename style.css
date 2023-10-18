@@ -342,3 +342,26 @@ ul {
   to { transform: scale(1.2); }
 }
 
+/* //////////////////// */
+/* temporary form */
+/* ///////////////////// */
+.form-G{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.g-form{
+  width: 4.8rem;
+  border-radius: 40%;
+  margin: 1.2rem;
+  animation: gelatine 0.5s infinite;
+}
+@keyframes gelatine {
+  from, to { transform: scale(1, 1); }
+  25% { transform: scale(0.9, 1.1); }
+  50% { transform: scale(1.1, 0.9); }
+  75% { transform: scale(0.95, 1.05); }
+}
+
+
