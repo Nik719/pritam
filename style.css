@@ -312,20 +312,7 @@ form button{
 }
 
 .footer{
-  /* background: #000;
-  padding: 1rem 0;
-  border-top: 1px solid #0F0F0F; */
-
-  --border-size: 3px;
-  --border-angle: 0turn;
-  /* width: 60vmin;
-  height: 50vmin; */
-  background-image: conic-gradient(from var(--border-angle), #213, #112 50%, #213), conic-gradient(from var(--border-angle), transparent 20%, #08f, #f03);
-  background-size: calc(100% - (var(--border-size) * 2)) calc(100% - (var(--border-size) * 2)), cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  -webkit-animation: bg-spin 3s linear infinite;
-  animation: bg-spin 3s linear infinite;
+  background-color: #000;
 
 }
 .social-links{
@@ -336,28 +323,6 @@ form button{
 
 }
 
-@-webkit-keyframes bg-spin {
-  to {
-      --border-angle: 1turn;
-  }
-}
-
-@keyframes bg-spin {
-  to {
-      --border-angle: 1turn;
-  }
-}
-
-.box:hover {
-  -webkit-animation-play-state: paused;
-  animation-play-state: paused;
-}
-
-@property --border-angle {
-  syntax: "<angle>";
-  inherits: true;
-  initial-value: 0turn;
-}
 
 ul {
   list-style-type: none; /* Remove bullets */
@@ -369,5 +334,11 @@ ul {
   border-radius: 40%;
   margin: 1.2rem;
   justify-content: space-between;
+  animation: pulse 1s infinite ease-in-out alternate;
+}
+
+@keyframes pulse {
+  from { transform: scale(0.8); }
+  to { transform: scale(1.2); }
 }
 
