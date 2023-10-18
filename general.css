@@ -1,0 +1,123 @@
+/* general section */
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 100%;
+  
+}
+:root {
+    
+/* font sizes */
+--font-size-53xl: 4.5rem;
+--font-size-xl: 1.25rem;
+--font-size-13xl: 2rem;
+--font-size-5xl: 1.5rem;
+--font-size-37xl: 3.5rem;
+--font-size-141xl: 10rem;
+--font-size-5xl-2: 1.51rem;
+--font-size-sm-4: 0.84rem;
+--font-size-29xl: 3rem;
+--font-size-xl: 20px;
+--font-size-13xl: 32px;
+--font-size-141xl: 160px;
+--font-size-5xl: 24px;
+
+  /* Colors */
+  --color-gray: #151718;
+  --color-white: #fff;
+  --color-rainbow: rgb(127, 75, 238);
+  --color-black: #000;
+  --color-cadetblue: #85aca7;
+  --color-blueviolet: #6337f5;
+  --color-white: #fff;
+  --color-gray: #151718;
+  --color-darkslategray: #37393b;
+
+  /* Gaps */
+  --gap-37xl: 3.5rem;
+  --gap-53xl: 4.5rem;
+  --gap-13xl: 2rem;
+  --gap-base: 1rem;
+  --gap-13xl-2: 2.01rem;
+  --gap-37xl: 56px;
+  --gap-13xl: 32px;
+
+  /* Paddings */
+  --padding-base: 16px;
+  --padding-29xl: 48px;
+  --padding-21xl: 40px;
+  --padding-3xs: 10px;
+  --padding-77xl: 96px;
+  --padding-lg: 18px;
+  --padding-21xl: 2.5rem;
+  --padding-69xl: 5.5rem;
+  --padding-base: 1rem;
+  --padding-29xl: 3rem;
+  --padding-3xs: 0.63rem;
+  --padding-217xl: 14.75rem;
+  --padding-134xl: 9.56rem;
+  --padding-lg: 1.13rem;
+  --padding-106xl: 7.81rem;
+  --padding-77xl: 6rem;
+  --padding-3xs-4: 0.59rem;
+  --padding-2xs-7: 0.67rem;
+  --padding-13xl: 2rem;
+
+  /* border radiuses */
+--br-5xs: 8px;
+--br-13xl: 32px;
+--br-5xs: 8px;
+--br-base: 16px;
+--br-13xl: 32px;
+--br-lg-8: 18.8px;
+--br-3xs-4: 9.4px;
+--br-7xs-3: 5.3px;
+}
+  
+  /* PAGE SECTIONS */
+  body {
+      line-height: 1;
+      font-family: 'Inter', sans-serif;
+      position: relative;
+      font-weight: 600;
+      max-width: auto;
+  
+    }
+      
+    
+      
+    /* HELPER/SETTINGS CLASSES */
+    .margin-right-sm {
+      /* margin-right: 1rem !important; */
+    }
+    
+
+    
+    .center-text {
+      text-align: center;
+    }
+    
+    strong {
+      font-weight: 500;
+    }
+    
+  /* ??common css   */
+
+  .frame-div1 {
+    align-self:center;
+    flex-direction: column;
+    padding: 1.5rem;
+    align-items: center;
+    margin: 96px 0 39px  0;
+}
+.frame-div,
+.frame-div1,
+.read-more-wrapper {
+    display: flex;
+    justify-content: flex-start;
+  }
+
